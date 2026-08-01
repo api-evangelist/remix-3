@@ -1,7 +1,27 @@
 aid: remix-3
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remix-3.png
 name: Remix 3
-description: Remix 3 is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Remix (YC W26, "remix-3" in the Y Combinator directory) is a San Francisco
+  AI startup building a consumer social-media content platform under the tagline "Trends,
+  remixed by you." Users connect their accounts and drop in photos, voice notes, or
+  messages, and Remix uses hundreds of parallel AI agents to auto-generate posts in
+  their style — articles, tweets, carousels, and short-form videos, including riffs
+  on trending formats — without manual prompting. The company was founded in 2025 by
+  Sam Kaplan (Harvard CS; early Brex employee). As of this enrichment pass Remix ships
+  a consumer web/mobile product only and publishes no public developer API, SDK, docs,
+  or webhook surface, so this remains an identity-only profile in the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/remix-3/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,35 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://remix.re
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Content Generation
+- Social Media
+- Creative Tools
+- Generative AI
+- Consumer
 apis: []
+common:
+- type: Website
+  url: https://remix.re
+- type: PrivacyPolicy
+  url: https://remix.re/privacy
+- type: TermsOfService
+  url: https://remix.re/terms
+- type: About
+  url: https://www.ycombinator.com/companies/remix-3
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
