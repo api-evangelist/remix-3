@@ -48,7 +48,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Content Generation
-- Social-Media
+- Social Media
 - Creative Tools
 - Generative AI
 - Consumer
@@ -60,6 +60,7 @@ tags_raw:
 - Creative Tools
 - Generative AI
 - Consumer
+- Social-Media
 apis: []
 common:
 - type: Website
